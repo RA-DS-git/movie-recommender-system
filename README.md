@@ -80,7 +80,9 @@ python main.py
 
 ## Project Structure
 
+```text
 src/        → Core implementation (models + logic)
 data/       → MovieLens dataset
 main.py     → Entry point for full pipeline
 notebooks/  → Exploratory analysis and visualization
+```
