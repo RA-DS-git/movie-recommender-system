@@ -64,10 +64,11 @@ MovieLens Small Dataset:
 
 ### 📊 Rating Prediction Examples
 
+```text
 Actual: 5.0 → Predicted: 4.40
 Actual: 4.0 → Predicted: 4.36
 Actual: 5.0 → Predicted: 4.38
-
+```
 
 ---
 
