@@ -1,4 +1,4 @@
-# 🎬 Movie Recommender System
+# Movie Recommender System
 
 A modular machine learning recommender system built using the MovieLens dataset.
 
@@ -6,19 +6,18 @@ It combines **content-based filtering** and **item-item collaborative filtering*
 
 ---
 
-## 🚀 Features
+## Features
 
 - Content-based filtering using TF-IDF on movie genres and user tags  
 - Item-item collaborative filtering using cosine similarity on user ratings  
 - Rating prediction for unseen movies  
 - Evaluation using Mean Absolute Error (MAE)  
-- Modular and extensible Python codebase  
 
 ---
 
-## 📊 Dataset
+## Dataset
 
-MovieLens Small Dataset:
+MovieLens Dataset:
 
 - `movies.csv` → movie metadata (title, genres)
 - `ratings.csv` → user-movie ratings
@@ -26,7 +25,7 @@ MovieLens Small Dataset:
 
 ---
 
-## 🧠 Methods
+## Methods
 
 ### 1. Content-Based Filtering
 - Builds movie profiles using genres + tags  
@@ -40,7 +39,7 @@ MovieLens Small Dataset:
 
 ---
 
-## 📈 Key Findings
+## Key Findings
 
 - User ratings are skewed toward higher values (3–5 range)  
 - Popular movies dominate interaction data (popularity bias)  
@@ -50,9 +49,9 @@ MovieLens Small Dataset:
 
 ---
 
-## 🧪 Example Outputs
+## Example Outputs
 
-### 🎯 Content-Based Recommendation (Toy Story)
+### Content-Based Recommendation (Toy Story)
 
 - A Bug’s Life  
 - Antz  
@@ -62,7 +61,7 @@ MovieLens Small Dataset:
 
 ---
 
-### 📊 Rating Prediction Examples
+### Rating Prediction Examples
 
 ```text
 Actual: 5.0 → Predicted: 4.40
@@ -72,7 +71,7 @@ Actual: 5.0 → Predicted: 4.38
 
 ---
 
-## 📉 Evaluation
+## Evaluation
 
 The model is evaluated using:
 
@@ -81,7 +80,7 @@ The model is evaluated using:
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 # Install dependencies
